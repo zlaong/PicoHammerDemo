@@ -8,6 +8,18 @@
 | --- | --- |
 | ![冷却环](docs/screenshots/02-cooldown-ring.png) | ![巨人牛](docs/screenshots/03-giant-cow.png) |
 
+## 下载试玩
+
+不想装 Unity 的话，直接下载打包好的 APK 装到头显（PICO 4 Ultra / Swan，需开启开发者模式）：
+
+**[⬇ 下载 v0.1.0 APK](https://github.com/zlaong/PicoHammerDemo/releases/latest)**
+
+```bash
+adb install -r PicoHammerDemo.apk
+```
+
+这是 debug 签名的开发包，用于试玩验证，未上架 PICO 商店。
+
 ## 玩法
 
 - **近战挥锤**：锤头真的碰到目标、且速度超过阈值才算命中，伤害按锤头速度换算
